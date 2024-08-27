@@ -1,0 +1,218 @@
+header {
+    background-image: url(image-hero.jpg);
+    padding-left: 50px;
+    height: 450px;
+    padding-right: 60px;
+    color: aliceblue;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-between;
+}
+.firstsection span {
+    font-size: 20px;
+}
+.things {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-top: 30px;
+}
+.things h3:hover {
+    border-bottom: 2px solid white;
+    border-bottom-width: 20%;
+    margin-top: 20px;
+    transition: ease-in-out;
+}
+.secondsection {
+    border: 2px solid white;
+    width: 30%;
+    margin-top: 40px;
+    /* text-transform: capitalize; */
+    font-size: 30px;
+    padding-left: 20px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    position: fixed;
+}
+.thirdsection {
+    display: flex;
+    margin-top: 70px;
+    height: 500px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.thirdsection img {
+    height: 400px;
+}
+.leader {
+    border: 2px solid white;
+    background-color: white;
+    margin-left: -120px;
+    margin-top: 150px;
+    height: 200px;
+    padding-left: 30px;
+    color: rgb(150, 147, 147);
+}
+.fourthsection {
+    height: 900px;
+}
+.our {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 70px;
+    
+}
+.our h2 {
+    font-size: 35px;
+}
+.our h3 {
+    border: 2px solid rgb(167, 162, 162);
+    width: 110px;
+    padding-left: 20px;
+   
+}
+.our h3:hover {
+    background-color: rgb(63, 61, 61);
+    color: aliceblue;
+}
+.deep {
+    margin-left: 40px;
+    display: flex;
+    /* height: 650px; */
+    justify-content: center;
+}
+.deep h3 {
+    margin-left: 20px;
+    margin-top: 280px;
+    font-size: 25px;
+    color: rgb(226, 222, 222);
+}
+.deep nav:hover {
+    background-size: 250px;
+    background-position: cover;
+}
+.nav1 {
+    background-image: url(desktop/image-deep-earth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 20px;
+
+}
+.nav2 {
+    background-image: url(desktop/image-night-arcade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 20px;
+
+}
+.nav3 {
+    background-image: url(desktop/image-soccer-team.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 20px;
+
+}
+.nav4 {
+    background-image: url(desktop/image-grid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 20px;
+    
+}
+.nav5 {
+    background-image: url(desktop/image-from-above.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 20px;
+}
+.nav6 {
+    background-image: url(desktop/image-pocket-borealis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 20px;
+    
+}
+.nav7 {
+    background-image: url(desktop/image-curiosity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 20px;
+    
+}
+.nav8 {
+    background-image: url(desktop/image-fisheye.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 20px;
+    
+}
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 120px;
+}
+.div3 {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    margin-top: 30px;
+}
+.div3 i {
+    font-size: 25px;
+}
+.div3 i:hover {
+    border-bottom: 2px solid white;
+    border-bottom-width: 20%;
+    margin-top: 5px;
+    transition: ease-in-out;
+}
+.div4 {
+    display: flex;
+    justify-content: space-between;
+}
+.div5 {
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.div5 h3:hover {
+    border-bottom: 2px solid white;
+    border-bottom-width: 20%;
+    margin-top: 20px;
+    transition: ease-in-out;
+}
+.div6 {
+    margin-right: 30px;
+}
+footer {
+    background-color: black;
+    color: rgb(186, 191, 196);
+}
